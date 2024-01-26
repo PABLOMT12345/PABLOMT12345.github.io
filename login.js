@@ -2,8 +2,6 @@ document.getElementById('loginBtn').addEventListener('click', function(event) {
     event.preventDefault();
     var inputEmail = document.getElementById('email');
     var inputPassword = document.getElementById('password');
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
 })
 
 function validateForm() {
